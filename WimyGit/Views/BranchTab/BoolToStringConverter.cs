@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
-
+//add annotation for test
 namespace WimyGit.UserControls
 {
     public class BoolToStringConverter : IValueConverter
