@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using WimyGit.ViewModels;
-// add annation for testing
+
 namespace WimyGit.View
 {
     public partial class DirectoryTree : UserControl

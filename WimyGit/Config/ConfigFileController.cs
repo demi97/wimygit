@@ -8,7 +8,6 @@ namespace WimyGit.Config
 	{
 		public static void Save(Model model)
 		{
-			//add annotation for testing
 			XmlDocument document = new System.Xml.XmlDocument();
 			XmlElement root = document.CreateElement("wimygit_config");
 			document.AppendChild(root);

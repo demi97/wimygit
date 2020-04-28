@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-//NotifyBase for test
+
 namespace WimyGit
 {
     public class NotifyBase : INotifyPropertyChanged
