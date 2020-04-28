@@ -6,6 +6,8 @@ namespace WimyGit.ViewModels
 {
     public class DirectoryTreeViewModel : NotifyBase
     {
+    
+    //creat a list collection 
         ObservableCollection<TreeData> TreeItems_ = new ObservableCollection<TreeData>();
         public ObservableCollection<TreeData> TreeItems {
             get { return TreeItems_; }
