@@ -4,6 +4,12 @@ namespace WimyGit
     public static class GitCommandCreator
     {
         static private readonly string kEmptyTreeCommitId = "4b825dc642cb6eb9a060e54bf8d69288fbee4904";
+	    
+	  // static get method for test
+	  
+	  public static string GetLastCommitMessage(){
+		  return "test .........";
+	  }
 
         public static string GetLastCommitMessage()
         {

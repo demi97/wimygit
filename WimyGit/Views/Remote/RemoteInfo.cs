@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+//RemoteInfo for test
 namespace WimyGit.UserControls
 {
     public class RemoteInfo

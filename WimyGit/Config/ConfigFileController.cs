@@ -8,11 +8,13 @@ namespace WimyGit.Config
 	{
 		public static void Save(Model model)
 		{
+			//create XmlDocument Object
 			XmlDocument document = new System.Xml.XmlDocument();
 			XmlElement root = document.CreateElement("wimygit_config");
 			document.AppendChild(root);
 
 			XmlElement recentRepositories = document.CreateElement("recent_repositories");
+			//for each 
 			foreach (string recentRepository in model.RecentRepositoryPaths)
 			{
 				XmlElement element = document.CreateElement("recent_repository");
