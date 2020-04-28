@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 namespace WimyGit
 {
 	public class CommitInfo
+	
+	//set get/set method for the properies
 	{
 		public string Graph { get; set; }
 		public string Sha { get; set; }
