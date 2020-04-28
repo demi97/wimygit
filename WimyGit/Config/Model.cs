@@ -3,6 +3,8 @@ using System.Windows.Controls;
 
 namespace WimyGit.Config
 {
+
+//creat a Model class
 	public class Model
 	{
 		public LinkedList<string> RecentRepositoryPaths = new LinkedList<string>();
